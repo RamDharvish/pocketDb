@@ -42,11 +42,11 @@ jobs:
       - name: Sync Capacitor Android
         run: npx cap sync android
 
-- name: Build Debug APK
-  working-directory: android
-  run: |
-    chmod +x gradlew
-    ./gradlew assembleDebug
+      - name: Build Debug APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug
 
       - name: Upload PocketDB APK
         uses: actions/upload-artifact@v4
