@@ -1,0 +1,6 @@
+{
+  "name": "Expense Tracker",
+  "description": "PocketDB: Developer-focused, local-first personal finance application with SQLite ledger, multi-account support, transfers, reports, charts, and JSON backup/restore.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
